@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+
+    <head>
+        <title>SQL test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <h1>Agregar usuario</h1>
+        <form action="ProcessModel">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fnameadd" name="fnameadd"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lnameadd" name="lnameadd"><br><br>
+            <input type="submit" value="Agregar">
+        </form>
+        <h1>Eliminar usuario</h1>
+        <form action="DeleteUser">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fnamedel" name="fnamedel"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lnamedel" name="lnamedel"><br><br>
+            <input type="submit" value="Eliminar">
+        </form>
+        <h1>Buscar usuario</h1>
+        <form action="SelectUser">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fnamesel" name="fnamesel"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lnamesel" name="lnamesel"><br><br>
+            <input type="submit" value="Buscar">
+        </form>
+    </body>
+
+</html>
